@@ -1,0 +1,36 @@
+
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+@media (min-width: 414px) {
+	.row {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+
+.col {
+			padding-bottom: 30px;
+		    flex: 1 50%;
+	}
+}
+
+@media (min-width: 769px) {
+	.col {
+			padding-bottom: 20px;
+		    flex: 1 33.3%;
+	}
+
+}
+
+@media (min-width: 1025px) {
+
+	.col {
+	padding-bottom: 30px;
+	   flex: 1 25%;
+	}
+
+
+}

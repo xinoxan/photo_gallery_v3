@@ -374,6 +374,7 @@ html[data-lc-type=image] #lightcase-content .lightcase-contentInner {
 /* line 19, ../scss/components/modules/_info.scss */
 #lightcase-info #lightcase-title {
   font-size: 17px;
+  font-family: 'Varela Round';
   color: #aaa;
 }
 @media screen and (max-width: 640px) {
@@ -390,7 +391,8 @@ html[data-lc-type=image] #lightcase-content .lightcase-contentInner {
 /* line 33, ../scss/components/modules/_info.scss */
 #lightcase-info #lightcase-caption {
   clear: both;
-  font-size: 13px;
+  font-family: 'Varela Round';
+  font-size: 17px;
   color: #aaa;
 }
 /* line 39, ../scss/components/modules/_info.scss */
